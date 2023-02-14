@@ -23,14 +23,22 @@ error_reporting(1);
     <?php include 'config.php';
     if (isset($_GET['updateid'])) {
         $id = $_GET['updateid'];
+    } else {
+        $id = $_POST['id'];
     }
 
 
-    if (isset($_POST['done'])) {
-        // echo "<pre>";
-        // print_r($_POST);
 
-        // exit;
+
+
+
+
+
+    $select = 'SELECT * from businesses where id =' . $_GET['updateid'];
+    $sql = mysqli_query($conn, $select);
+    $result = mysqli_fetch_assoc($sql);
+
+    if (isset($_POST['update'])) {
 
 
         $name = $_POST['name'];
@@ -42,15 +50,14 @@ error_reporting(1);
 
         // $image = 'noimg.png';
 
-
-
-        $sql = "INSERT INTO `businesses`(name,email,phone,address,city,image)
-    VALUES('" . $name . "','" . $email . "','" . $phone . "','" . $address . "','" . $city . "','" . $image . "')";
+        $sql = "update businesses set
+        name='" . $name . "',email='" . $email . "',phone='" . $phone . "',address='" . $address . "',city='" . $city . "',image='" . $image . "'
+ where id=" . $id;
         // //exit;
         $result = mysqli_query($conn, $sql);
         if ($result) {
-            echo "<div class='alert-success alert'>inserted successfully</div>";
-            header("Location:add_invoicer.php");
+            echo "<div class='alert-success alert'>updated successfully</div>";
+            header("Location:businesses.php");
         } else {
             die(mysqli_error($conn));
         }
@@ -58,6 +65,7 @@ error_reporting(1);
     /*****************when button update presses end****************/
 
     ?>
+
 
     <div id="wrapper">
 
@@ -85,8 +93,7 @@ error_reporting(1);
                         </div>
                         <div class="card-body">
 
-                            <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
-
+                            <form action="" method="post">
                                 <div class=" form-group row">
 
 
@@ -96,7 +103,7 @@ error_reporting(1);
 
                                         <label for="cars">Company Name:</label>
 
-                                        <input type="text" style="width: 50%;" class="form-control" name="name">
+                                        <input type="text" style="width: 50%;" class="form-control" name="name" value="<?= $result['name'] ?>">
 
 
 
@@ -107,7 +114,7 @@ error_reporting(1);
 
                                         <label for="cars">Email:</label>
 
-                                        <input type="text" style="width: 50%;" class="form-control" name="email">
+                                        <input type="text" style="width: 50%;" class="form-control" name="email" value="<?= $result['email'] ?>">
 
 
 
@@ -116,7 +123,7 @@ error_reporting(1);
 
                                     <div class="col-md-12">
                                         <label for="cars">Address:</label>
-                                        <textarea class="form-control" style="width: 30%;" name="address" rows="4"></textarea>
+                                        <textarea class="form-control" style="width: 30%;" name="address" rows="4"><?php echo $result['name'] ?></textarea>
                                     </div>
                                     <div class="clearfix">&nbsp;</div>
 
@@ -124,22 +131,22 @@ error_reporting(1);
 
                                         <label for="cars">Phone:</label>
 
-                                        <input type="text" style="width: 50%;" class="form-control" name="phone">
+                                        <input type="text" style="width: 50%;" class="form-control" name="phone" value="<?= $result['phone'] ?>">
 
 
 
                                     </div>
                                     <div class="clearfix">&nbsp;</div>
+
                                     <div class="col-md-6 form-group row">
 
-                                        <label>city:</label>
+                                        <label for="cars">city:</label>
 
-                                        <input type="text" style="width: 50%;" class="form-control" name="city">
+                                        <input type="text" style="width: 50%;" class="form-control" name="city" value="<?= $result['city'] ?>">
 
 
 
                                     </div>
-                                    <div class="clearfix">&nbsp;</div>
 
                                     <div class="col-md-12">
 
@@ -148,8 +155,8 @@ error_reporting(1);
                                     </div>
 
                                     <div class="col-md-12">
-
-                                        <input type="submit" class="btn btn-info" value="submit" name="done">
+                                        <input type="hidden" name="id" value="<?= $_GET['updateid'] ?>">
+                                        <button type="submit" class="btn btn-dark btn-lg" name="update">Update</button>
                                     </div>
 
 

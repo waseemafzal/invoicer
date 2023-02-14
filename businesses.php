@@ -76,7 +76,7 @@ error_reporting(1);
               <td><?php echo $row['address'] ?></td>
               <td><?php echo '<img width="50" src="uploads/' . $row['image'] . '">'; ?></td>
               <td>
-                <a href="editbusiness.php?updateid=<?php echo $row['id'] ?>" class="btn btn-dark">Update</a>
+                <a href="edit_business.php?updateid=<?php echo $row['id'] ?>" class="btn btn-dark">Update</a>
 
                 <a href="del_invoicer.php?id=<?php echo $row['id']; ?>" class="btn btn-danger">Delete</a>
               </td>
