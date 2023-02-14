@@ -1,0 +1,1557 @@
+[09-Feb-2023 06:20:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(90): Invoicr->outputPDF()
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:20:55 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(90): Invoicr->outputPDF()
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:21:19 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(90): Invoicr->outputPDF()
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:21:51 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:21:56 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:22:14 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:23:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:23:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:23:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:23:53 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:23:53 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 06:45:46 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/cypherso/invoicer.cyphersol.com/login.php on line 6
+[09-Feb-2023 06:46:17 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/cypherso/invoicer.cyphersol.com/login.php on line 6
+[09-Feb-2023 06:48:56 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /home/cypherso/invoicer.cyphersol.com/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/login.php on line 12
+[09-Feb-2023 06:49:35 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /home/cypherso/invoicer.cyphersol.com/login.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/login.php on line 13
+[09-Feb-2023 06:50:18 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /home/cypherso/invoicer.cyphersol.com/login.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/login.php on line 13
+[09-Feb-2023 06:51:00 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(91): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 07:01:42 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 07:01:54 UTC] PHP Warning:  Undefined array key "login" in /home/cypherso/invoicer.cyphersol.com/index.php on line 3
+[09-Feb-2023 07:01:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cypherso/invoicer.cyphersol.com/index.php:3) in /home/cypherso/invoicer.cyphersol.com/index.php on line 4
+[09-Feb-2023 07:01:54 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/index.php at line 3), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(95): Invoicr->outputPDF()
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 07:02:33 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 07:02:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php at line 9593), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 07:03:40 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 07:05:51 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 09:19:23 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 09:19:23 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 09:20:11 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 09:20:12 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 18:15:43 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 18:19:28 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 18:19:28 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 19:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 19:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 20:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 20:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 21:00:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 21:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 22:00:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 22:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 23:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[09-Feb-2023 23:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 00:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 00:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 01:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 01:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 02:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 02:30:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 03:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 03:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 03:45:22 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 04:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 04:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 05:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 05:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 06:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 06:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 07:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 07:30:51 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 07:59:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 07:59:59 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 08:00:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 08:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 09:00:44 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 09:25:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 09:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 10:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 10:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 11:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 11:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 12:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 12:30:44 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 13:00:43 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 13:30:44 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 14:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 14:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 15:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 15:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 16:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 16:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 17:00:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 17:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 18:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 18:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 19:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 19:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 20:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 20:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 21:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 21:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 22:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 22:03:23 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 22:03:31 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 22:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 23:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[10-Feb-2023 23:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 00:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 00:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 01:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 01:30:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 02:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 02:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 03:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 03:30:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 04:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 04:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 05:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 05:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 06:00:44 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 06:02:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 06:02:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 06:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 07:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 07:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 08:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 08:30:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 09:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 09:30:44 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 10:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 10:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 11:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 11:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 12:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 12:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 13:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 13:30:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 14:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 14:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 15:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 15:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 16:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 16:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 17:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 17:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 18:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 18:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 19:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 19:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 20:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 20:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 21:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 21:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 22:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 22:02:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 22:02:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 22:30:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 23:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[11-Feb-2023 23:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 00:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 00:30:51 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 01:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 01:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 02:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 02:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 03:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 03:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 04:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 04:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 05:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 05:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 06:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 06:30:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 07:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 07:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 08:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 08:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 09:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 09:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 10:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 10:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 11:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 11:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 12:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 12:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 13:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 13:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 14:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 14:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 15:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 15:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 16:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 16:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 17:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 17:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 18:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 18:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 19:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 19:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 20:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 20:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 21:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 21:30:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 22:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 22:02:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 22:02:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 22:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 23:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[12-Feb-2023 23:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 00:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 00:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 01:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 01:30:51 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 02:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 02:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 03:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 03:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 04:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 04:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 05:00:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 05:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 06:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 06:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 07:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 07:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 08:00:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 08:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 09:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 09:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 10:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 10:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 11:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 11:30:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 12:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 12:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 13:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 13:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 14:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 14:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 15:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 15:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 16:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 16:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 17:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 17:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 18:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 18:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 19:00:54 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 19:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 20:00:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 20:30:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 21:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 21:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 22:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 22:30:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 23:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[13-Feb-2023 23:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 00:00:45 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 00:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 01:00:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 01:30:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 02:00:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 02:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 03:00:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 03:30:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 04:00:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 04:13:24 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 04:13:26 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 04:13:30 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 04:13:30 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 04:30:49 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 04:32:53 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 04:33:06 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 05:00:50 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php at line 114), unable to output PDF file in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php:9567
+Stack trace:
+#0 /home/cypherso/invoicer.cyphersol.com/invlib/invoicr.php(156): Mpdf\Mpdf->Output()
+#1 /home/cypherso/invoicer.cyphersol.com/index.php(96): Invoicr->outputPDF(1)
+#2 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/invlib/vendor/mpdf/mpdf/src/Mpdf.php on line 9567
+[14-Feb-2023 05:02:16 UTC] PHP Warning:  Undefined variable $conn in /home/cypherso/invoicer.cyphersol.com/businesses.php on line 57
+[14-Feb-2023 05:02:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/cypherso/invoicer.cyphersol.com/businesses.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/cypherso/invoicer.cyphersol.com/businesses.php on line 57
