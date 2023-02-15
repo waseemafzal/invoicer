@@ -16,8 +16,8 @@ $this->data .= "<table id='billship'><tr><td><strong>BILL TO</strong><br>";
 foreach ($this->billto as $b) { $this->data .= $b."<br>"; }
 
 // (D) SHIP TO
-$this->data .= "</td><td><strong>SHIP TO</strong><br>";
-foreach ($this->shipto as $s) { $this->data .= $s."<br>"; }
+// $this->data .= "</td><td><strong>SHIP TO</strong><br>";
+// foreach ($this->shipto as $s) { $this->data .= $s."<br>"; }
 
 // (E) INVOICE INFO
 $this->data .= "</td><td>";

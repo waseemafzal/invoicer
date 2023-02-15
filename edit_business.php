@@ -48,6 +48,21 @@ error_reporting(1);
         $city = $_POST['city'];
         $image = $_POST['image'];
 
+        if (isset($_FILES['image']['name']) and $_FILES['image']['name'] != '') {
+
+            $info = pathinfo($_FILES['image']['name']);
+
+            $ext = $info['extension']; // get the extension of the file
+
+            $newname = rand(5, 3456) * date(time()) . "." . $ext;
+
+            $target = 'uploads/' . $newname;
+
+            if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
+
+                $image = $newname;
+            }
+        }
         // $image = 'noimg.png';
 
         $sql = "update businesses set
@@ -87,13 +102,13 @@ error_reporting(1);
 
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary" style="display: inline-block;">Add Purchase</h6>
+                            <h6 class="m-0 font-weight-bold text-primary" style="display: inline-block;">Update Business</h6>
                             <!-- <a href="addcategory.php" class="btn btn-primary " style="float: right;" ><i class="fa fa-plus"></i>Add New Record</a> -->
 
                         </div>
                         <div class="card-body">
 
-                            <form action="" method="post">
+                            <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post" enctype='multipart/form-data'>
                                 <div class=" form-group row">
 
 
@@ -123,7 +138,7 @@ error_reporting(1);
 
                                     <div class="col-md-12">
                                         <label for="cars">Address:</label>
-                                        <textarea class="form-control" style="width: 30%;" name="address" rows="4"><?php echo $result['name'] ?></textarea>
+                                        <textarea class="form-control" style="width: 30%;" name="address" rows="4"><?php echo $result['address'] ?></textarea>
                                     </div>
                                     <div class="clearfix">&nbsp;</div>
 

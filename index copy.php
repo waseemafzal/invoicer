@@ -1,7 +1,4 @@
 <?php
-
-//echo '<pre>';
-//print_r($_POST);exit;
 session_start();
 if(!isset($_SESSION['login'])){
     header("Location:login.php");
@@ -9,59 +6,66 @@ if(!isset($_SESSION['login'])){
 
 // (A) LOAD INVOICR
 require "invlib/invoicr.php";
-include_once 'config.php';
-$companydata = 'select * from company';
-$query = mysqli_query($conn, $companydata);
-$data = mysqli_fetch_assoc($query);
+
 // (B) SET INVOICE DATA
 // (B1) COMPANY INFORMATION
-//RECOMMENDED TO JUST PERMANENTLY CODE INTO INVLIB/INVOICR.PHP > (C1)
+/* RECOMMENDED TO JUST PERMANENTLY CODE INTO INVLIB/INVOICR.PHP > (C1)
 $invoicr->set("company", [
-	"<img src =" .$data["image"].">",
-	$data['name'],
-	$data['address'],
-   "Phone:".$data['phone'],
-	"Email:".$data['email']
-]); 
+	"http://localhost/code-boxx-logo.png",
+	"D:/http/code-boxx-logo.png",
+	"Code Boxx",
+	"Street Address, City, State, Zip",
+	"Phone: xxx-xxx-xxx | Fax: xxx-xxx-xxx",
+	"https://code-boxx.com",
+	"doge@code-boxx.com"
+]); */
 
 // (B2) INVOICE HEADER
-
-// (B3) BILL TO
-include_once 'config.php';
-$bill = "select * from businesses where id = '".$_POST['business_id']."'";
-$query = mysqli_query($conn, $bill);
-$result = mysqli_fetch_assoc($query);
-$invoicr->set("billto", [
-	$result['name'],
-	$result['email'],
-	$result['address'],
-	$result['city'],
+$invoicr->set("head", [
+	["Invoice #", "CB-123-456"],
+	["DOP", "2011-11-11"],
+	["P.O. #", "CB-789-123"],
+	["Due Date", "2011-12-12"]
 ]);
 
-$count = count($_POST['item']);
- for($i=0;$i<$count;$i++){
- $myitems[] = [
-	$_POST['item'][$i],'', $_POST['quantity'][$i],  $_POST['rate'][$i], $_POST['subtotal'][$i]
- ];
- }
-$items = $myitems;
-//echo '<pre>';
-//print_r($_POST);exit;
- foreach ($items as $i) { $invoicr->add("items", $i); }
+// (B3) BILL TO
+$invoicr->set("billto", [
+	"Customer Name",
+	"Street Address",
+	"City, State, Zip"
+]);
+
+// (B4) SHIP TO
+$invoicr->set("shipto", [
+	"Customer Name",
+	"Street Address",
+	"City, State, Zip"
+]);
+
+// (B5) ITEMS - ADD ONE-BY-ONE
+$items = [
+	["Rubber Hose", "5m long rubber hose", 3, "$5.50", "$16.50"],
+	["Rubber Duck", "Good bathtub companion", 8, "$4.20", "$33.60"],
+	["Rubber Band", "", 10, "$0.10", "$1.00"],
+	["Rubber Stamp", "", 3, "$12.30", "$36.90"],
+	["Rubber Shoe", "For slipping, not for running", 1, "$20.00", "$20.00"]
+];
+// foreach ($items as $i) { $invoicr->add("items", $i); }
 
 // (B6) ITEMS - OR SET ALL AT ONCE
-//$invoicr->set("items", $items);
+$invoicr->set("items", $items);
 
 // (B7) TOTALS
 $invoicr->set("totals", [
-	["TAX %", $_POST['tax']],
-	["DISCOUNT", $_POST['discount']],
-	["GRAND TOTAL", $_POST['total']]
+	["SUB-TOTAL", "$108.00"],
+	["DISCOUNT 10%", "-$10.80"],
+	["GRAND TOTAL", "$97.20"]
 ]);
 
 // (B8) NOTES, IF ANY
 $invoicr->set("notes", [
-	$_POST['notes']
+	"Cheques should be made payable to Code Boxx",
+	"Get a 10% off with the next purchase with discount code DOGE1234!"
 ]);
 
 // (C) OUTPUT
