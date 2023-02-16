@@ -2,9 +2,13 @@
   <head>
     <title>Invoice</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-<style>
-    .remove_button{position: absolute;top: 25px;left: 0;}
+    .remove_button{ 
+      top: 375px;
+    position: absolute;
+    left: 9%;
+    }
     .add_button{position: relative;top: 25px;left: 0; top: -30px;}
 
    </style>
@@ -28,6 +32,8 @@
   
   <section class="invoice">
       <!-- title row -->
+      <a href='businesses.php' class='btn btn-info'>Home</a>
+<br><br>
       <div class="row">
         <div class="col-xs-12">
           <h2 class="page-header">
@@ -76,7 +82,7 @@
         <!-- /.col -->
       </div>
       <!-- /.row -->
-
+<br>
       <!-- Table row -->
       <div class="row">
         <div class="col-xs-12 table-responsive">
@@ -112,7 +118,7 @@
               <td colspan="3" style="text-align: right;">Total</td>
               <td>
                 <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                <span class="input-group-prepand"><i class="fa fa-dollar mt-2" style='margin-right:7px'></i></span>
                 <input type="text" class="form-control noprint" id="total" name="total" value="<?php if(isset($row)){echo $row['amount'];}?>">
                 
               </div>

@@ -29,6 +29,7 @@ class Invoicr {
 
   // (C3) BILL & SHIP TO
   private $billto = [];
+  private $shipto = [];
 
   // (C4) ITEMS - NAME, DESCRIPTION, QTY, PRICE EACH, SUB-TOTAL
   private $items = [];
@@ -68,6 +69,7 @@ class Invoicr {
     $this->company = [];
     $this->head = [];
     $this->billto = [];
+    $this->shipto = [];
     $this->items = [];
     $this->totals = [];
     $this->notes = [];
@@ -198,3 +200,15 @@ class Invoicr {
   }
 }
 $invoicr = new Invoicr();
+?>
+<button type='button' onclick='window.print()' class='print_button'>Print</button>
+<style>
+  .print_button{
+    color:white;
+    background-color:green;
+    border:none;
+    padding:10px;
+    margin:10px;
+    cursor:pointer
+  }
+</style>

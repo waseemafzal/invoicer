@@ -13,7 +13,7 @@
               <a class="nav-link" href="edit_company.php">Settings</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="generate-invoice.php">Invoice</a>
+              <a class="nav-link" href="generate-invoice.php">+Add Invoice</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

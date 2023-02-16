@@ -17,9 +17,9 @@ $data = mysqli_fetch_assoc($query);
 // (B1) COMPANY INFORMATION
 //RECOMMENDED TO JUST PERMANENTLY CODE INTO INVLIB/INVOICR.PHP > (C1)
 $invoicr->set("company", [
-	"<img src =" .$data["image"].">",
-	$data['name'],
-	$data['address'],
+	"<img src =" .$data['image'].">",
+	"Name:".$data['name'],
+	"Address:".$data['address'],
    "Phone:".$data['phone'],
 	"Email:".$data['email']
 ]); 
@@ -34,6 +34,7 @@ $result = mysqli_fetch_assoc($query);
 $invoicr->set("billto", [
 	$result['name'],
 	$result['email'],
+	$result['phone'],
 	$result['address'],
 	$result['city'],
 ]);
@@ -103,3 +104,4 @@ $invoicr->outputHTML();
 
 // (D) USE RESET() IF YOU WANT TO CREATE ANOTHER ONE AFFTER THIS
 // $invoicr->reset();
+?>

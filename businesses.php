@@ -15,6 +15,12 @@ error_reporting(1);
   <link src="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css">
   <link src="https://cdn.datatables.net/responsive/2.4.0/css/responsive.bootstrap5.min.css">
   <title>Business</title>
+  <style>
+    .image{
+      height:70px;
+      width:90px;
+    }
+  </style>
 </head>
 
 <body>
@@ -22,7 +28,7 @@ error_reporting(1);
     <?php
         include_once 'nav.php'
     ?>
-
+  <a href ='add_business.php' class='btn btn-info mt-2' style='float:right'>+Add Business</a>
     <table class="table" id="table">
       <thead>
         <tr>
@@ -49,11 +55,20 @@ error_reporting(1);
               <td><?php echo $row['phone'] ?></td>
               <td><?php echo $row['city'] ?></td>
               <td><?php echo $row['address'] ?></td>
-              <td><?php echo '<img width="50" src="uploads/' . $row['image'] . '">'; ?></td>
+             
+    <?php if($row['image']!==''){?>
+      <td>
+      <img class='image' src='<?php echo $row['image'];?>'>
+      </td>
+      <?php } else{?>
+      <td> 
+      <img  class='image' src='uploads/noimg.png'>
+     </td>  
+     <?php }?>
               <td>
                 <a href="edit_business.php?updateid=<?php echo $row['id'] ?>" class="btn btn-dark">Update</a>
 
-                <a href="del_invoicer.php?id=<?php echo $row['id']; ?>" class="btn btn-danger">Delete</a>
+                <a href="del_business.php?id=<?php echo $row['id']; ?>" class="btn btn-danger">Delete</a>
               </td>
             </tr>
         <?php }
