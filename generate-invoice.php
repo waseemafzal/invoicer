@@ -24,7 +24,28 @@
       <div class="row" style="margin-right: -15px;
     margin-left: -15px;">
         <div style="width: 100%;" >
+        <div class="col-sm-8 invoice-col pull-right" style='margin:0%;padding:0%'>
+        <label>Created Date:</label>
+        <input type='date' name='created_date'>
+        <label>Due Date:</label>
+        <input name='due_date' type='date'>
+        <label>Bill to:</label>  
+        <select id="billtoselect" name='business_id'>
+          <option selected>Choose</option>
+         <?php 
+         $business = 'select * from businesses';
+         $query = mysqli_query($conn, $business);
+         while($data = mysqli_fetch_array($query)){
+         ?>      
+         <option data-headers="<?php echo $data['headers'];?>" data-name="<?php echo $data['name']?>" data-email="<?php echo $data['email']?>" data-phone="<?php echo $data['phone']?>" data-address="<?php echo $data['address']?>" data-city="<?php echo $data['city']?>" value='<?php echo $data['id']?>'><?php echo $data['name'];?>
+         </option>
+         <?php }?>
+         </select>  
+        </div>
           <div class="box">
+         
+        <!-- /.col -->
+      </div>
             <div class="box-header">
             
               
@@ -66,22 +87,7 @@
            
         </div>
         <!-- /.col -->
-        <div class="col-sm-4 invoice-col">
-        <label>Bill to:</label>  
-        <select id="billtoselect" name='business_id'>
-          <option selected>Choose</option>
-         <?php 
-         $business = 'select * from businesses';
-         $query = mysqli_query($conn, $business);
-         while($data = mysqli_fetch_array($query)){
-         ?>      
-         <option data-headers="<?php echo $data['headers'];?>" data-name="" value='<?php echo $data['id']?>'><?php echo $data['name'];?>
-         </option>
-         <?php }?>
-         </select>  
-        </div>
-        <!-- /.col -->
-      </div>
+        
       <!-- /.row -->
 <br>
       <!-- Table row -->
@@ -132,7 +138,7 @@
               </tr>   
          <tr>
               <td colspan="4" id="paymentTermsTD" ><b>Payment Terms</b>
-                <textarea class="form-control noprint" id="payment_terms"  name="payment_terms" rows="2" /><?php if(isset($row)){echo $row['payment_terms'];}?></textarea>
+                <textarea class="form-control noprint" id="payment_terms"  name="terms" rows="2" /><?php if(isset($row)){echo $row['payment_terms'];}?></textarea>
               
                 </td>
             </tr>
@@ -161,7 +167,7 @@
       <div class="row no-print" style="margin-right: -15px;
     margin-left: -15px;">
         <div style="width: 100%;">         
-           <button type="submit" class="btn btn-success pull-right noprint" onClick="submitform(0)"><i class="fa fa-save"></i> Save
+           <button type="submit" name='submit' class="btn btn-success pull-right"><i class="fa fa-save"></i> Save
           </button>
           <?php /*?> <button type="button" class="btn btn-primary pull-right" id="downloadPdf" style="margin-right: 5px;">
             <i class="fa fa-download"></i> Generate PDF
@@ -304,7 +310,11 @@ $(document).ready(function(){
 });
  $("#billtoselect").change(function(){
 	var headers= $("#billtoselect option:selected").attr('data-headers');
-	
+	var name= $("#billtoselect option:selected").attr('data-name');
+	var email= $("#billtoselect option:selected").attr('data-email');
+	var phone= $("#billtoselect option:selected").attr('data-phone');
+	var address= $("#billtoselect option:selected").attr('data-address');
+	var city= $("#billtoselect option:selected").attr('data-city');
 	
 		 var formData = new FormData();
 		formData.append('headers',headers);
