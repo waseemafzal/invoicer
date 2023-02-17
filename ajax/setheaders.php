@@ -8,7 +8,7 @@
 		foreach($headers as $key=>$val){
 			$fieldName=str_replace(' ','_',$val);
 			$tableHeading.='<th>'.$val.'</th>';
-			$tableRowInputs.='<td><input type="text" class="form-control" name="'.$fieldName.'[]" /></td>';
+			$tableRowInputs.='<td><input type="text" class="form-control" name="invoice['.$fieldName.'][]" /></td>';
 			$i++;
 			}
 			$response['status']=200;
