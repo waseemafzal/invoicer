@@ -1,7 +1,7 @@
 <?php
 include_once 'config.php';
 error_reporting(1);
-include_once 'nav.php';
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -19,6 +19,7 @@ include_once 'nav.php';
     #submit{
             cursor: pointer;
         }
+		.form-group{ margin-bottom:10px;}
 </style>
     <title>Add Business</title>
 </head>
@@ -29,13 +30,13 @@ include_once 'nav.php';
     }
 
 
-    if (isset($_POST['done'])) {
+    if (isset($_POST['update'])) {
         // echo "<pre>";
         // print_r($_POST);
 
         // exit;
 
-print_r($_POST);exit;
+//print_r($_POST);exit;
         $name = $_POST['name'];
         $email = $_POST['email'];
         $phone = $_POST['phone'];
@@ -43,7 +44,7 @@ print_r($_POST);exit;
         $account_number = $_POST['account_number'];
         $account_name = $_POST['account_name'];
         $sort_code = $_POST['sort_code'];
-        $_POST['headers'] = implode($_POST['headers']);
+        $_POST['headers'] = implode(',',$_POST['headers']);
         $headers = $_POST['headers'];
         //$headers = implode(',', $business_headers);
         $city = $_POST['city'];
@@ -59,7 +60,7 @@ print_r($_POST);exit;
 
             if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
 
-                $image = $newname;
+                $image = $target;
             }
         }
         $sql = "INSERT INTO `businesses`(name,email,phone,address,account_number,account_name,sort_code,headers,city,image)
@@ -76,7 +77,11 @@ print_r($_POST);exit;
     /*****************when button update presses end****************/
 
     ?>
-	<br><br>
+	
+    <div class="container">
+    <?php include_once 'nav.php'; ?>
+    </div>
+    <br><br>
     <div id="wrapper">
 
 
@@ -103,9 +108,9 @@ print_r($_POST);exit;
                             <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post" enctype='multipart/form-data'>
                                 <div class=" form-group">
                                     <div class='row'>
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
 
-                                        <label for="cars">Business Name:</label>
+                                        <label for="name">Business Name:</label>
 
                                         <input type="text" class="form-control" name="name">
 
@@ -113,60 +118,61 @@ print_r($_POST);exit;
 
                                     </div>
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
 
-                                        <label for="cars">Business Email:</label>
+                                        <label for="email">Business Email:</label>
 
                                         <input type="email" class="form-control" name="email">
                                     </div>
-</div>
-</div>                                    <div class="clearfix">&nbsp;</div>
-                                   <div class='form-group'>
-                                     <div class='row'>
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
                                     <label for="cars">Business City:</label>
                                         <input type="text" class="form-control" name="city">
                                        </div>
-                                       <div class="col-md-6">
+                                       <div class="col-md-3">
                                          <label for="cars">Business Phone:</label>
                                             <input type="number" class="form-control" name="phone">
                                          </div>
 </div></div>
-                                    <div class="clearfix">&nbsp;</div>
                                    <div class='form-group'>
                                      <div class='row'>
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                     <label for="cars">Business Address:</label>
-                                        <textarea type='text' class="form-control" name="address" rows="4"></textarea>
+                                        <textarea type='text' class="form-control" name="address" rows="2"></textarea>
                                     </div>
                                      <div class="col-md-6">
                                         <label for="cars">Business Logo:</label>
                                           <input type="file" name="image" class='form-control'>
                                     </div>
 </div></div>
+
+<div style="border: 1px solid hsl(240deg 7% 62%);padding: 15px;margin: 5px 0 0 0;border-radius: 5px;background-color: #dee2e61a;" >
                                 <div class='form-group'>
                                     <div class='row'>
                                         <div class='col-md-6'>
-                                            <label>Account Name</label>
+                                            <label>Bank Account Name</label>
                                             <input type='text' name='account_name' class='form-control'>
 </div>
                                 <div class='col-md-6'>
-                                <label>Account Number</label>
+                                <label>Bank Account Number</label>
                                             <input type='number' name='account_number' class='form-control'>
 </div>
 </div></div>
                                 <div class='form-group'>
                                     <div class='row'>
                                         <div class='col-md-6'>
-                                            <label>Sort Code</label>
+                                            <label>Bank Sort Code</label>
                                               <input type='number' name='sort_code' class='form-control'>
 </div>
-</div></div>
+</div>
+</div>
+</div>
+
 <br>
   
             <div id="inputFormRow" class='col-md-12'>
+            <h4>Invoice headers</h4>
                 <div class="input-group mb-3">
-                    <input type="text" name="headers[]" class="form-control m-input" placeholder="Enter header" autocomplete="off">
+                    <input type="text" name="headers[]" class="form-control m-input" placeholder="Enter header title" autocomplete="off">
                     <div class="input-group-append">
                         <button id="removeRow" type="button" class="btn btn-danger">Remove</button>
                     </div>
@@ -195,7 +201,7 @@ print_r($_POST);exit;
             var html = '';
             html += '<div id="inputFormRow">';
             html += '<div class="input-group mb-3">';
-            html += '<input type="text" name="headers[]" class="form-control" placeholder="Enter header" autocomplete="off">';
+            html += '<input type="text" name="headers[]" class="form-control" placeholder="Enter header title" autocomplete="off">';
             html += '<div class="input-group-append">';
             html += '<button id="removeRow" type="button" class="btn btn-danger">Remove</button>';
             html += '</div>';

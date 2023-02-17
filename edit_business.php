@@ -1,26 +1,20 @@
-<?php
-include_once 'config.php';
-error_reporting(1);
-include_once 'nav.php';
-?>
 <!doctype html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link src="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css">
-    <link src="https://cdn.datatables.net/responsive/2.4.0/css/responsive.bootstrap5.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<?php include_once'head.php'; ?>
     <title>Update Business</title>
 </head>
 
 <body>
-    <?php include 'config.php';
+<?php
+        include_once 'nav.php'
+    ?>
+
+
+    <div id="wrapper">
+
+    <?php 
     if (isset($_GET['updateid'])) {
         $id = $_GET['updateid'];
     } else {
@@ -54,12 +48,12 @@ include_once 'nav.php';
         $account_number = $_POST['account_number'];
         $account_name = $_POST['account_name'];
         $sort_code = $_POST['sort_code'];
-        $headers = $_POST['headers'];
+        $headers = implode(',',$_POST['headers']);
 
         // $image = 'noimg.png';
 
         $sql = "update businesses set
-        name='" . $name . "',email='" . $email . "',phone='" . $phone . "',address='" . $address . "',city='" . $city . "','".$account_number."','".$account_name."','".$sort_code."','".$headers."', image='" . $destination . "'
+        name='" . $name . "',email='" . $email . "',phone='" . $phone . "',address='" . $address . "',city='" . $city . "',account_number='".$account_number."',account_name='".$account_name."',sort_code='".$sort_code."',headers='".$headers."', image='" . $destination . "'
  where id=" . $id;
         // //exit;
         $result = mysqli_query($conn, $sql);
@@ -73,11 +67,6 @@ include_once 'nav.php';
     /*****************when button update presses end****************/
 
     ?>
-
-<br><br>
-    <div id="wrapper">
-
-
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -98,7 +87,7 @@ include_once 'nav.php';
                         </div>
                         <div class="card-body">
 
-                            <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post" enctype='multipart/form-data'>
+                            <form action="<?php echo $_SERVER['PHP_SELF']?>?updateid=<?=$_GET['updateid']?>" method="post" enctype='multipart/form-data'>
                                 <div class=" form-group">
                                     <div class='row'>
                                     <div class="col-md-6">
@@ -164,12 +153,26 @@ include_once 'nav.php';
 <br>
   
             <div id="inputFormRow" class='col-md-12'>
+            
+            <?php if($result['headers']!=''){
+				$headers = explode(',',$result['headers']);
+				foreach($headers as $key=>$header){
+				 ?>
+                 <div class="input-group mb-3">
+                    <input type="text" name="headers[]" class="form-control m-input" placeholder="Enter header" autocomplete="off" value="<?=$header?>">
+                    <div class="input-group-append">
+                        <button id="removeRow" type="button" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>
+            
+            <?php } }else { ?>
                 <div class="input-group mb-3">
                     <input type="text" name="headers[]" class="form-control m-input" placeholder="Enter header" autocomplete="off">
                     <div class="input-group-append">
                         <button id="removeRow" type="button" class="btn btn-danger">Remove</button>
                     </div>
                 </div>
+                <?php } ?>
             </div>
 
             <div id="newRow"></div>
@@ -193,9 +196,13 @@ include_once 'nav.php';
                     </div>
                 </div>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
                         </div>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
                 <script type="text/javascript">
         // add row
         $("#addRow").click(function () {

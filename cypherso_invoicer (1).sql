@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 14, 2023 at 10:07 AM
+-- Generation Time: Feb 17, 2023 at 01:12 AM
 -- Server version: 5.7.41-cll-lve
 -- PHP Version: 7.4.33
 
@@ -35,7 +35,7 @@ CREATE TABLE `businesses` (
   `phone` varchar(255) NOT NULL,
   `address` varchar(255) NOT NULL,
   `city` varchar(255) NOT NULL,
-  `image` varchar(255) NOT NULL
+  `image` varchar(255) NOT NULL DEFAULT 'uploads/noimg.png'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -43,8 +43,33 @@ CREATE TABLE `businesses` (
 --
 
 INSERT INTO `businesses` (`id`, `name`, `email`, `phone`, `address`, `city`, `image`) VALUES
-(1, 'cyphersol', 'cyphersol@gmail.com', '0321456789', 'New shah shamas colony', 'multan', 'noimg.png'),
-(2, 'Netsol', 'netsol@gmail.com', '0321456789', 'Nishter colony', 'multan', 'noimg.png');
+(1, 'cyphersol Tech', 'cyphersol@gmail.com', '0321456789', 'New shah shamas colony', 'Multan', 'uploads/Hydrangeas.jpg'),
+(13, 'Shaheer Corporation', 'shaheer@gmail.com', '03411663111', 'Chowk Shah Abbass ', 'Multan', 'uploads/Penguins.jpg'),
+(16, 'Motorolla', 'motorolla@info.net', '03211663111', 'Chowk Shah Abbass', 'Multan', ''),
+(17, 'Maruti Suzuki', 'maruti@info.com', '03000053042', 'Chowk Shah Abbass', 'Multan', ''),
+(18, 'Test', 'testing@gmail.com', '032298798687', 'Chh', 'hiuhiu', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `company`
+--
+
+CREATE TABLE `company` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `phone` varchar(255) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `company`
+--
+
+INSERT INTO `company` (`id`, `name`, `email`, `phone`, `address`, `image`) VALUES
+(1, 'Invoicer', 'invoicer@info.net', '03411663111', 'Chowk Shah Abbass Multan', 'uploads/Chrysanthemum.jpg');
 
 -- --------------------------------------------------------
 
@@ -78,6 +103,12 @@ ALTER TABLE `businesses`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `company`
+--
+ALTER TABLE `company`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -91,7 +122,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `businesses`
 --
 ALTER TABLE `businesses`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+--
+-- AUTO_INCREMENT for table `company`
+--
+ALTER TABLE `company`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `users`

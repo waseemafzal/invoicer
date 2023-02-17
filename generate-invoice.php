@@ -67,14 +67,14 @@
         <!-- /.col -->
         <div class="col-sm-4 invoice-col">
         <label>Bill to:</label>  
-        <select name='business_id'>
+        <select id="billtoselect" name='business_id'>
           <option selected>Choose</option>
          <?php 
          $business = 'select * from businesses';
          $query = mysqli_query($conn, $business);
          while($data = mysqli_fetch_array($query)){
          ?>      
-         <option value='<?php echo $data['id']?>'><?php echo $data['name'];?>
+         <option data-headers="<?php echo $data['headers'];?>" value='<?php echo $data['id']?>'><?php echo $data['name'];?>
          </option>
          <?php }?>
          </select>  
@@ -88,8 +88,9 @@
         <div class="col-xs-12 table-responsive">
           <table class="table table-bordered" id="items" border="1">
             <thead>
-            <tr>
-              <th>Item Details</th>
+            <tr id="itemDetail">
+            
+              <th >Item Details</th>
               <th>Qty</th>
               <th>Rate</th>
               <th>Subtotal</th>
@@ -98,24 +99,25 @@
             <tbody class="field_wrapper">
             
             <tr id="row_0">
+            
               <td><input type="text" class="form-control" name="item[]" /></td>
               <td><input type="number" class="form-control quantity" name="quantity[]" /></td>
               <td><input type="number" class="form-control rate" name="rate[]" /></td>
-              <td><input type="text" class="form-control subtotal" readonly="readonly" name="subtotal[]" /></td>
+              <td><input type="text" class="form-control subtotal" readonly name="subtotal[]" /></td>
             </tr>
            </tbody>
             <tfoot>
             <tr>
-              <td colspan="3" style="text-align: right;">Tax %</td>
+              <td colspan="3" id="taxRow" style="text-align: right;">Tax %</td>
               <td><input type="number" class="form-control noprint" id="tax"  name="tax" value="<?php if(isset($row)){echo $row['tax'];}?>">
                 </td>
             </tr>
            <tr>
-              <td colspan="3" style="text-align: right;">Discount</td>
+              <td colspan="3" id="discountRow" style="text-align: right;">Discount</td>
               <td><input type="number" class="form-control" id="discount" name="discount" value="<?php if(isset($row)){echo $row['discount'];}?>"></td>
             </tr>
            <tr>
-              <td colspan="3" style="text-align: right;">Total</td>
+              <td colspan="3" id="totalRow" style="text-align: right;">Total</td>
               <td>
                 <div class="input-group">
                 <span class="input-group-prepand"><i class="fa fa-dollar mt-2" style='margin-right:7px'></i></span>
@@ -158,7 +160,7 @@
       <div class="row no-print" style="margin-right: -15px;
     margin-left: -15px;">
         <div style="width: 100%;">         
-           <button type="submit" class="btn btn-success pull-right noprint" onclick="submitform(0)"><i class="fa fa-save"></i> Save
+           <button type="submit" class="btn btn-success pull-right noprint" onClick="submitform(0)"><i class="fa fa-save"></i> Save
           </button>
           <?php /*?> <button type="button" class="btn btn-primary pull-right" id="downloadPdf" style="margin-right: 5px;">
             <i class="fa fa-download"></i> Generate PDF
@@ -297,6 +299,37 @@ $(document).ready(function(){
         x--; //Decrement field counter
     update_amounts();
     });
+});
+ $("#billtoselect").change(function(){
+	var headers= $("#billtoselect option:selected").attr('data-headers');
+		 var formData = new FormData();
+		formData.append('headers',headers);
+	// ajax start
+		    $.ajax({
+			type: "POST",
+			url: "ajax/setheaders.php",
+			data: formData,
+			cache: false,
+			contentType: false,
+			processData: false,
+			dataType: 'JSON',
+			success: function(data) {
+            if (data.status == 200)
+            {   
+				$('#itemDetail').prepend(data.headers);
+								$('#row_0').prepend(data.tableRowInputs);
+								if(data.colspan>3){
+								$("#discountRow").attr("colspan",data.colspan+3);
+								$("#taxRow").attr("colspan",data.colspan+3);
+								$("#totalRow").attr("colspan",data.colspan+3);
+								}
+
+            }
+           }
+	 });
+
+	//ajax end 
+	 
 });
 </script>
   
