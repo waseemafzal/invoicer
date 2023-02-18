@@ -92,18 +92,19 @@ $row = mysqli_fetch_assoc($query2);
             </thead>
             <tbody class="field_wrapper">
             
-            <tr id="row_0">
+            
             
               <?php
 			  for($i=0;$i<$count;$i++){
+				  echo '<tr id="row_0">';
 			foreach($arr as $key=>$val){
 				$v =$val[$i];
 			echo ' <td >'.$v.'</td>';
 			}	
-			
+			echo '</tr>';
 			}
 			   ?>
-            </tr>
+            
            </tbody>
             <tfoot>
             <tr>
