@@ -134,7 +134,7 @@
                 </td>
             </tr>
          <tr class="noprint">
-              <td colspan="2" id="addLineTD" ><a class="btn btn-success add_button noprint"><i class="fa fa-plus"></i>Add Line</a></td>
+              <td colspan="2" id="btnAdd" ><a class="btn btn-success add_button noprint"><i class="fa fa-plus"></i>Add Line</a></td>
               </tr>   
          <tr>
               <td colspan="4" id="paymentTermsTD" ><b>Payment Terms</b>
@@ -280,36 +280,51 @@
    
 
   
-$(document).ready(function(){
+// $(document).ready(function(){
 
   
-    var maxField = 10; //Input fields increment limitation
-    var addButton = $('.add_button'); //Add button selector
-    var wrapper = $('.field_wrapper'); //Input field wrapper
-      var x = 1; //Initial field counter is 1
+//     var maxField = 10; //Input fields increment limitation
+//     var addButton = $('.add_button'); //Add button selector
+//     var wrapper = $('.field_wrapper'); //Input field wrapper
+//       var x = 1; //Initial field counter is 1
     
-    //Once add button is clicked
-    $(addButton).click(function(){
-        //Check maximum number of input fields
-        if(x < maxField){ 
-            x++; //Increment field counter
-       var fieldHTML = '<tr id="row_'+x+'"><td><input type="text" class="form-control" name="item[]" /></td><td><input type="number" class="form-control quantity" onChange="update_amounts()" name="quantity[]" /></td><td><input type="text" class="form-control rate" onChange="update_amounts()" name="rate[]" /></td><td><input type="text" class="form-control subtotal" readonly="readonly" name="subtotal[]" /><a data-id="'+x+'" href="javascript:void(0);" class="remove_button"><i class="fa  fa-minus-circle"></i></a></td></tr>'; //New input field html 
+//     //Once add button is clicked
+//     $(addButton).click(function(){
+//         //Check maximum number of input fields
+//         if(x < maxField){ 
+//             x++; //Increment field counter
+//        var fieldHTML = '<tr id="row_'+x+'"><td><input type="text" class="form-control" name="item[]" /></td><td><input type="number" class="form-control quantity" onChange="update_amounts()" name="quantity[]" /></td><td><input type="text" class="form-control rate" onChange="update_amounts()" name="rate[]" /></td><td><input type="text" class="form-control subtotal" readonly="readonly" name="subtotal[]" /><a data-id="'+x+'" href="javascript:void(0);" class="remove_button"><i class="fa  fa-minus-circle"></i></a></td></tr>'; //New input field html 
  
       
-            $(wrapper).append(fieldHTML); //Add field html
-        }
-    });
+//             $(wrapper).append(fieldHTML); //Add field html
+//         }
+//     });
     
-    //Once remove button is clicked
-    $(wrapper).on('click', '.remove_button', function(e){
-        e.preventDefault();
-    var id = $(this).attr('data-id');
-    //alert($(this).attr('data-id'));      
-        $('#row_'+id).remove(); //Remove field html
-        x--; //Decrement field counter
-    update_amounts();
-    });
-});
+//     //Once remove button is clicked
+//     $(wrapper).on('click', '.remove_button', function(e){
+//         e.preventDefault();
+//     var id = $(this).attr('data-id');
+//     //alert($(this).attr('data-id'));      
+//         $('#row_'+id).remove(); //Remove field html
+//         x--; //Decrement field counter
+//     update_amounts();
+//     });
+// });
+$("#btnAdd").on("click",function(){
+        $tableBody = $("#row_0").clone().insertAfter($('#row_0'));       
+        $tableBody.append("<td><a href='' class='rmv' >Remove</a></td>");
+              //  $trLast = $tableBody.find("tr:last"),
+              //  $trNew = $trLast.clone();
+              //  $trNew.append("<td><a href='' class='rmv' >Remove</a></td>");
+              //  $trLast.after($trNew);
+       });
+//$('#items').on('click', '.rmv', function () {
+  $(document).on('click', '.rmv', function(){
+    $(this).parents('tr').remove();
+});  
+  //alert("wee");
+    // $(this).parents('tr').remove();
+//});
  $("#billtoselect").change(function(){
 	var headers= $("#billtoselect option:selected").attr('data-headers');
 	var name= $("#billtoselect option:selected").attr('data-name');
