@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-<?php include_once'head.php'; ?>
+<?php include_once 'head.php'; 
+      include_once 'config.php';
+?>
   <title>Business</title>
   <style>
     .image{
@@ -66,7 +68,32 @@
     </div>
     </a>
     </div>
+    <div class="col-md-4 boxwrap">
+    <a href="">
+      <?php
+      $select = 'select * from businesses';
+      $query = mysqli_query($conn, $select);
+      $count = mysqli_num_rows($query);
+      ?>
+    <div class="box">
+    <h3>Total Businesses (<?php echo $count?>)</h3>
     
+    </div>
+    </a>
+    </div>
+    <div class="col-md-4 boxwrap">
+    <a href="">
+    <?php
+      $select = 'select * from invoice';
+      $query = mysqli_query($conn, $select);
+      $count = mysqli_num_rows($query);
+      ?>
+    <div class="box">
+    <h3>Total Invoices (<?php echo $count?>)</h3>
+    
+    </div>
+    </a>
+    </div>
     </div>
     
 

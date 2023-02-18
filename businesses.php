@@ -63,7 +63,12 @@
      </td>  
      <?php }?>
               <td>
-                <a href="invoice-details.php?business_id=<?php echo $row['id'] ?>" class="btn btn-sm btn-success"><i class="fa fa-list"></i> Invoices</a>
+                <?php 
+                $select = 'select * from invoice where business_id='.$row['id'];
+                $query = mysqli_query($conn, $select);
+                $count = mysqli_num_rows($query);
+                ?>
+                <a href="invoice-details.php?business_id=<?php echo $row['id'] ?>" class="btn btn-sm btn-success">Invoices (<?php echo $count?>)</a>
                 
                 <a href="edit_business.php?updateid=<?php echo $row['id'] ?>" class="btn btn-sm btn-dark"><i class="fa fa-pencil"></i></a>
 
