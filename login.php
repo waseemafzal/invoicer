@@ -11,7 +11,7 @@ $row =  $result->fetch_assoc();
 session_start();
 $_SESSION['login']=1;
 $_SESSION['email']=$row->email;
-header("Location:businesses.php");
+header("Location:index.php");
 }
 	}
 ?>

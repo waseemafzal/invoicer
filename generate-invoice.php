@@ -65,7 +65,7 @@
               if($query){
                 $result = mysqli_fetch_assoc($query);}?>
             <img height="60" src="<?php echo $result['image'];?>">
-            Client Invoices
+            
               </h2>
         </div>
         <!-- /.col -->
@@ -167,8 +167,8 @@
       <div class="row no-print" style="margin-right: -15px;
     margin-left: -15px;">
         <div style="width: 100%;">         
-           <button type="submit" name='submitprint' class="btn btn-success pull-right"><i class="fa fa-print"></i> Save & Print
-          </button>
+           <button type="submit" style="margin:0 0 0 10px" name='submitprint' class="btn btn-info pull-right"><i class="fa fa-print"></i> Save & Print
+          </button>&nbsp;
           <button type="submit" name='submit' class="btn btn-success pull-right"><i class="fa fa-save"></i> Save
           </button>
           <?php /*?> <button type="button" class="btn btn-primary pull-right" id="downloadPdf" style="margin-right: 5px;">
@@ -312,7 +312,7 @@
 // });
 $("#btnAdd").on("click",function(){
         $tableBody = $("#row_0").clone().insertAfter($('#row_0'));       
-        $tableBody.append("<td><a href='' class='rmv' >Remove</a></td>");
+        $tableBody.append("<td><a href='javascript:void(0)' class='rmv' >Remove</a></td>");
               //  $trLast = $tableBody.find("tr:last"),
               //  $trNew = $trLast.clone();
               //  $trNew.append("<td><a href='' class='rmv' >Remove</a></td>");
