@@ -63,6 +63,8 @@
      </td>  
      <?php }?>
               <td>
+                <a href="invoice-details.php?business_id=<?php echo $row['id'] ?>" class="btn btn-sm btn-success"><i class="fa fa-list"></i> Invoices</a>
+                
                 <a href="edit_business.php?updateid=<?php echo $row['id'] ?>" class="btn btn-sm btn-dark"><i class="fa fa-pencil"></i></a>
 
                 <a href="del_business.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>

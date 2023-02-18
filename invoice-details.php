@@ -29,31 +29,46 @@
       <thead>
    
         <tr>
-          <th scope="col">Terms</th>
-          <th scope="col">Notes</th>
+          <th scope="col">Created Date</th>
+          <th scope="col">Due Date</th>
           <th scope="col">Tax</th>
           <th scope="col">Discount</th>
           <th scope="col">Total</th>
-          <th scope="col">Invoice Details</th>
+          <th scope="col">Terms</th>
+          <th scope="col">Notes</th>
+          <th scope="col">Action</th>
+
         </tr>
       </thead>
       <tbody>
         <?php
+		if(isset($_GET['business_id'])){
+			$sql = "SELECT * FROM invoice where business_id=".$_GET['business_id'];
+			}else{
         $sql = "SELECT * FROM invoice";
+			}
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
           // output data of each row
           while ($row = $result->fetch_assoc()) { ?>
             <tr>
-              <th scope="row"><?php echo $row['terms'] ?></th>
-              <td><?php echo $row['notes'] ?></td>
+                          <th scope="row"><?php echo $row['created_date'] ?></th>
+              <td><?php echo $row['due_date'] ?></td>
+
               <td><?php echo $row['tax'] ?></td>
               <td><?php echo $row['discount'] ?></td>
               <td><?php echo $row['total'] ?></td>
-              <td>
-                <?php echo $row['invoice_detail']?>
-              </td>
+                            <th scope="row"><?php echo $row['terms'] ?></th>
+              <td><?php echo $row['notes'] ?></td>
+<td><a href="printinvoice.php?id=<?php echo $row['id'] ?>" class="btn btn-sm btn-success"><i class="fa fa-print"></i> Print</a></td>
+              <!--<td>
+                <?php /*$json = json_decode($row['invoice_detail']);
+				foreach($json as $key=>$val){
+					echo '<p>'.$key.' : '.implode(',',$val).'</p>';
+					}*/
+				 ?>
+              </td>-->
             </tr>
         <?php }
         } ?>

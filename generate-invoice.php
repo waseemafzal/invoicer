@@ -167,7 +167,9 @@
       <div class="row no-print" style="margin-right: -15px;
     margin-left: -15px;">
         <div style="width: 100%;">         
-           <button type="submit" name='submit' class="btn btn-success pull-right"><i class="fa fa-save"></i> Save
+           <button type="submit" name='submitprint' class="btn btn-success pull-right"><i class="fa fa-print"></i> Save & Print
+          </button>
+          <button type="submit" name='submit' class="btn btn-success pull-right"><i class="fa fa-save"></i> Save
           </button>
           <?php /*?> <button type="button" class="btn btn-primary pull-right" id="downloadPdf" style="margin-right: 5px;">
             <i class="fa fa-download"></i> Generate PDF
