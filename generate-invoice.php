@@ -14,37 +14,55 @@
    </head>
    <body>
 <div class="container">
-<?php include_once 'nav.php'; ?>
+<?php include_once 'nav.php';
+$business = 'select * from businesses';
+         $queryB = mysqli_query($conn, $business);
+ ?>
 
     <!-- Content Header (Page header) -->
     
 <section class="content">
                  <form method='post' action='saveinvoice.php'>
 <div class="alert hidden"></div>
-      <div class="row" style="margin-right: -15px;
-    margin-left: -15px;">
-        <div style="width: 100%;" >
-        <div class="col-sm-8 invoice-col pull-right" style='margin:0%;padding:0%'>
-        <label>Created Date:</label>
-        <input type='date' name='created_date'>
-        <label>Due Date:</label>
-        <input name='due_date' type='date'>
-        <label>Bill to:</label>  
-        <select id="billtoselect" name='business_id'>
+      <div class="row" >
+        <div class="col-sm-3" >
+        <label>Bill From:</label>  
+        <select class="form-control" id="business_from_id" name='business_from_id'>
           <option selected>Choose</option>
          <?php 
-         $business = 'select * from businesses';
-         $query = mysqli_query($conn, $business);
-         while($data = mysqli_fetch_array($query)){
+         
+         while($data = mysqli_fetch_array($queryB)){
          ?>      
          <option data-headers="<?php echo $data['headers'];?>" data-name="<?php echo $data['name']?>" data-email="<?php echo $data['email']?>" data-phone="<?php echo $data['phone']?>" data-address="<?php echo $data['address']?>" data-city="<?php echo $data['city']?>" value='<?php echo $data['id']?>'><?php echo $data['name'];?>
          </option>
          <?php }?>
          </select>  
+         </div>
+         <div class="col-sm-3" >
+                 <label>Bill to:</label>  
+        <select class="form-control" id="billtoselect" name='business_id'>
+          <option selected>Choose</option>
+         <?php 
+         $business = 'select * from businesses';
+         $queryB = mysqli_query($conn, $business);
+
+         while($data = mysqli_fetch_array($queryB)){
+         ?>      
+         <option data-headers="<?php echo $data['headers'];?>" data-name="<?php echo $data['name']?>" data-email="<?php echo $data['email']?>" data-phone="<?php echo $data['phone']?>" data-address="<?php echo $data['address']?>" data-city="<?php echo $data['city']?>" value='<?php echo $data['id']?>'><?php echo $data['name'];?>
+         </option>
+         <?php }?>
+         </select>  
+         </div>
+         <div class="col-sm-3" >
+<label>Created Date:</label>
+        <input class="form-control" type='date' name='created_date'>
+       
         </div>
-          <div class="box">
+         <div class="col-sm-3" >
+          <label>Due Date:</label>
+        <input class="form-control" name='due_date' type='date'>
+        </div>
          
-        <!-- /.col -->
       </div>
             <div class="box-header">
             
@@ -56,31 +74,9 @@
   <section class="invoice">
       <!-- title row -->
 
-      <div class="row">
-        <div class="col-xs-12">
-          <h2 class="page-header">
-              <?php include_once 'config.php';
-              $setting = "select * from company";
-              $query = mysqli_query($conn, $setting);
-              if($query){
-                $result = mysqli_fetch_assoc($query);}?>
-            <img height="60" src="<?php echo $result['image'];?>">
-            
-              </h2>
-        </div>
-        <!-- /.col -->
-      </div>
       <!-- info row -->
       <div class="row invoice-info">
-      <div class="col-sm-4 invoice-col">
-          From:
-          
-            <strong><?php echo $result['name'];?></strong><br>
-           Address: <?php echo $result['address'];?><br>
-            Phone: <?php echo $result['phone'];?><br>
-            Email: <?php echo $result['email'];?>
-          
-        </div>
+      
        
         <div class="col-sm-4 invoice-col">
                     

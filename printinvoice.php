@@ -10,8 +10,17 @@ $result = mysqli_fetch_assoc($query);
 }
 
 // get invoice data from invoice table
-$invoice = "SELECT i.*,b.* FROM `invoice` as i 
-JOIN businesses as b on b.id=i.business_id where i.id=".$_GET['id'];
+$invoice = "SELECT i.*,b.*,bf.name as fname,
+bf.city as fcity,
+bf.address as faddress,
+bf.phone as fphone,
+bf.email as femail,
+bf.image as fimage
+
+ FROM `invoice` as i 
+JOIN businesses as bf on bf.id=i.business_from_id 
+JOIN businesses as b on b.id=i.business_id 
+where i.id=".$_GET['id'];
 $query2 = mysqli_query($conn, $invoice);
 if($query2){
 $row = mysqli_fetch_assoc($query2);
@@ -29,13 +38,13 @@ $row = mysqli_fetch_assoc($query2);
       <!-- info row -->
       <div class="row invoice-info">
       <div style="width: 50%;display:inline-block;float: left;">
-            <img height="60" src="<?php echo $result['image'];?>">
+            <img height="60" src="<?php echo $row['fimage'];?>">
           <p>
           From:
-            <strong style="text-transform:uppercase"><?php echo $result['name'];?></strong><br>
-           Address: <?php echo $result['address'];?><br>
-            Phone: <?php echo $result['phone'];?><br>
-            Email: <?php echo $result['email'];?>
+            <strong style="text-transform:uppercase"><?php echo $row['fname'];?></strong><br>
+            Address: <?php echo $row['fcity'].''. $row['faddress'];?><br>
+            Phone: <?php echo $row['fphone'];?><br>
+            Email: <?php echo $row['femail'];?>
           </p>
           <h5 style="font-size: 18px;margin: 0;">
           <?=date("F j, Y",strtotime($row['due_date'])) ;?>
